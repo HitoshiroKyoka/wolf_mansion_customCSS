@@ -1,0 +1,92 @@
+@-moz-document domain("wolfort.net") {
+    
+/*   全体的に幅を縮める   */
+
+@media (min-width: 992px){
+        .container {
+            position: relative;
+            width: 800px;
+    }
+    }
+
+/*   メッセージエリア設定   */
+    .row.message-area{
+        display: grid;
+        row-gap: 24px;
+    }
+
+/*   本文フォントと高さを変える   */
+.message{
+    font-family: "BIZ UDPGothic";
+    padding: 24px;
+    line-height: 1.7;
+}
+    
+/* メッセージの名前部分のフォント設定 */
+    .col-sm-12.col-xs-12.small{
+        font-family: "BIZ UDPGothic";
+        font-size:16px;
+    }
+
+/*   返信リンク設定   */
+    .row{
+        font-family: "BIZ UDPGothic";
+        font-size:16px;
+    }
+
+/*   日数リンクのフォント設定   */
+    #day-list{
+        font-family: "BIZ UDPGothic";
+        font-size:16px;
+    }
+
+/* ページリンク設定 */
+    .pagination.pagination-sm.pull-right{
+        font-family: "BIZ UDPGothic";
+        font-size:16px;
+    }
+    
+/* 全体のフォントサイズを調整 */
+.village-wrapper.large{
+    font-size: 130%;
+}
+}
+
+/* フッターを横メニューにする */
+#footer-menu.footer-menu-bottom{
+    top: 50px;
+    right: 20px;
+    left: auto;
+    width: 250px;
+    height: 300px;
+
+}
+
+#footer-menu .tab-content{
+    overflow-y: hidden;    
+}
+
+.well.btn-group{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-menu .btn-footermenu{
+    padding: 8px;
+}
+
+.glyphicon{
+    font-family: "Glyphicons Halflings";
+    font-size: 18px;
+}
+
+/* 固定したアクションの位置と横幅調整 */
+
+.panel-group.popupform{
+    bottom: 0px;
+    right: 0px;
+    left: auto;
+    max-height: 600px;
+    height: 600px;
+    max-width: 480px;
+}
